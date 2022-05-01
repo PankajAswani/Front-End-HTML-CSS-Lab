@@ -9,7 +9,6 @@ body {
 main {
     align-items: center;
     display: flex;
-    flex-direction: column;
     height: 100vh;
     justify-content: center;
     width: 100vw;
@@ -17,8 +16,9 @@ main {
 
 .barchart {
     background-color: #777;
+    color: white;
     display: inline-block;
-    height: 400px;
+    height: 450px;
     margin: auto;
     padding: 2em;
 }
@@ -82,7 +82,11 @@ main {
 }
 
 .percentage {
-    color: white;
     position: absolute;
     bottom: -10%;
+}
+
+h2 {
+    margin: 2.5em 0 0;
+    text-align: center;
 }
